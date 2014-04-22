@@ -11,13 +11,13 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>ViewServer</artifactId>
+    <artifactId>viewserver</artifactId>
     <name>ViewServer-Library</name>
     <packaging>jar</packaging>
 
     <properties>
-        <android-platform.version>4.4.2_r2</android-platform.version>
-        <android-support.version>19.0.1</android-support.version>
+        <android-platform.version>4.4.2_r3</android-platform.version>
+        <android-support.version>19.1.0</android-support.version>
     </properties>
 
     <dependencies>
@@ -30,6 +30,7 @@
             <groupId>android.support</groupId>
             <artifactId>compatibility-v4</artifactId>
             <version>${android-support.version}</version>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>
